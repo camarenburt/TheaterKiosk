@@ -1,5 +1,16 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner scan = new Scanner(System.in);
+        int age;
+
+
+
+        System.out.println("How old are you? ");
+        age = scan.nextInt();
+
+        if(age>=21){
+            System.out.println("You get a wristband.");
+        }
     }
 }
